@@ -11,7 +11,8 @@
         date_default_timezone_set("America/Sao_Paulo"); // Timezone: GMT-3
         echo "Hoje é dia " . date("d/M/Y"); //d - data
         echo ", " . date("D"); //D - dia da semana
-        echo ", e a hora atual é " . date("G:i:s T");
+        echo ", e a hora atual é " . date("G:i:s");
+        echo ". Timezone: " . date("T");
     ?>
 </body>
 </html>
